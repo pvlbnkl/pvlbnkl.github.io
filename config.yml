@@ -1,6 +1,6 @@
 ## Example Config file
 baseURL: "https://pvlbnkl.github.io"
-theme: "https://github.com/4s3ti/terminalcv.git"
+theme: "terminalcv"
 title: "terminalCV"
 
 params:
