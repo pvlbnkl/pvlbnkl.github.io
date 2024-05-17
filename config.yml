@@ -2,7 +2,9 @@
 baseURL: "https://pvlbnkl.github.io"
 theme: "terminalCV"
 title: "terminalCV"
-
+module: 
+  imports:
+  - path: github.com/coolapso/terminalcv
 params:
   description: "pvlbnkl terminalCV"
   prompt: "user@pvlbnkl.github.io"
