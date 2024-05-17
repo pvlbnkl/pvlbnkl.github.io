@@ -1,0 +1,176 @@
+## Example Config file
+baseURL: "https://pvlbnkl.github.io"
+theme: "terminalCV"
+title: "terminalCV"
+
+params:
+  description: "pvlbnkl terminalCV"
+  prompt: "user@pvlbnkl.github.io"
+# promptColor: grey
+# promptSimbols: ":~$"
+# promptSimbolsColor: grey
+# startxLocation: https://example.com
+# hideSocialName: true
+# exitLocation: 'about:blank'
+# hidesource: true
+  greeting: | 
+    Welcome to my online resume
+
+
+    Type 'help' for a list of available commands
+
+
+  whois: 
+      name: "Pavlo Bunakalia"
+      profession: "Engineer"
+      location: "Canada"
+      email: "pblo@tuta.io"
+      homelink: "https://pvlbnkl.github.io"
+      description: |
+              Stuck in Vim wishing it was VSCode. I use Nix by the way.
+
+  social:
+    ## IF you want to keep them aligned just add spaces
+    - name: "github"
+      url: "          https://github.com/pvlbnkl"
+    - name: "linkedin"
+      url: "        https://linkedin.com/in/pvlbnkl"
+
+  work:
+    - jobTitle: DevOps Engineer
+      color: red
+      company: 'Provectus'
+      location: Canada
+      date: January 2023 - Present
+      description: | 
+        Implemented Vaultwarden deployment with nginx as a proxy, incorporating automated backups and secrets management in AWS.
+        Part of 24x7 on-call rotation to provide continuous support to three different projects.
+        Monitoring staging and production environments with Datadog, Prometheus, and Grafana.
+        Gathering logs and providing additional information to the developer team.
+
+
+    - jobTitle: DevOps Engineer
+      color: purple
+      company: 'PepsiCo Contractor'
+      location: Canada
+      date: June 2022 - December 2022
+      description: |
+        Improved existing GitHub Actions pipeline on an internal application, integrated snyk.io vulnerability check, and implemented organization-wide actions standard on a current project.
+        Resolving pipeline and deployment issues with ArgoCD and k8s.
+        Active participant in the deployment of the dev environment with Terraform, k8s, and ArgoCD.
+
+    - jobTitle: Systems Administrator
+      color: blue
+      company: 'Provectus'
+      location: Ukraine
+      date: February 2022 - June 2022
+      description: |
+        Providing technical support to Provectus employees, managing hardware inventory, licenses, and access throughout the whole organization.
+        Migrated on premises Active Directory to AzureAD to improve identity, license, and organization management.
+
+    - jobTitle: NOC Engineer
+      color: yellow
+      company: 'Provectus'
+      location: Ukraine
+      date: June 2021 - February 2022
+      description: |
+       Part of 24x7 on call rotation to provide continuous support to three different projects.
+       Monitoring staging and production environments with Datadog, Prometheus, and Grafana.
+       Gathering logs and providing additional information to the developer team.
+
+  education:
+   - courseName: Odessa National Polytechnic University
+     color: blue
+     date: September 2014 - June 2018
+     description: Bachelor in technical information protection systems
+
+  skills:
+    - name: Git
+      percentage: 69
+
+    - name: Bash
+      percentage: 69
+      #description: or you can leave it comented   
+
+    - name: Linux
+      percentage: 69
+
+    - name: Terraform
+      percentage: 69
+
+    - name: AWS/Azure/GCP
+      percentage: 69
+
+    - name: Docker
+      percentage: 69
+
+    - name: CI/CD
+      percentage: 69
+
+    - name: Kubernetes
+      percentage: 69
+
+  languages:
+    - name: English
+      color: Blue
+      percentage: 90
+      #description: 
+
+    - name: French
+      percentage: 70
+    
+    - name: Russian
+      percentage: 100
+
+    - name: Ukrainian
+      percentage: 100
+
+
+  projects:
+    - title: My Nix flake configuration
+      color: blue
+      date: since 2022
+      link: https://github.com/pvlbnkl/nix-config
+      description: Currently nix-darwin only. But more to come.
+
+    - title: Personal neovim flake
+      color: blue
+      date: since 2024
+      link: https://github.com/pvlbnkl/pbnvim
+      #description: nothing to describe
+
+  certifications:
+  - certName: AWS Solutions Architect - Associate
+    company: AWS
+    date: April 2024
+    #description: Lorem Ipsum
+  - certName: GCP Professional Cloud Architect
+    company: Google
+    date: June 2023
+  - certName: AWS Certified Cloud Practitioner
+    company: AWS
+    date: March 2022
+  - certName: DELF B2
+    company: Alliance française
+    date: January 2014
+  
+      #  misc: 
+      #    #commandName: newcommand
+      #    title: "This Section can have a different command name"
+      #    titleColor: teal
+      #    content: |
+      #          Here the title and the content can have different colors
+      #          The content can be multi
+      #          
+      #          line
+      #
+      #          And spaces       will be respected as well
+      #          This section will have the default command: misc
+      #          but you can name it something else with the property
+      #          commandName: <String>
+      #          Give it a shot and try and uncomment the line 
+      #          commandName: newcommand
+      #          now instead of misc you can execute the newcommand for this section
+      #          Auto completion will know it too! :D 
+
+    contentColor: orange
